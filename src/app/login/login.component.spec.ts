@@ -26,7 +26,6 @@ describe('LoginComponent', () => {
     uService.isLogged = true;
     fixture.detectChanges();
     let el = fixture.debugElement.query(By.css('#welcome'));
-
     expect(el.nativeElement.textContent).toEqual('User Logged');
   });
   it("should show 'User Not Logged' if isLogged is false", () => {

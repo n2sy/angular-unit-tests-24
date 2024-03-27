@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class CountService {
-  count = 0;
+  count = 5;
 
   constructor() {}
 
